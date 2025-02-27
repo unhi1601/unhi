@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhà có 5 nàng điên</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        section {
+            padding: 20px;
+        }
+        .food-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .food-item img {
+            max-width: 200px;
+            border-radius: 10px;
+        }
+        .food-item .description {
+            max-width: 70%;
+            padding-left: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+<title>Thanh Tìm Kiếm</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        /* Thanh tìm kiếm */
+        .search-container {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .search-container input[type="text"] {
+            padding: 10px;
+            width: 300px;
+            border: 2px solid #4CAF50;
+            border-radius: 20px;
+            font-size: 16px;
+            margin-right: 10px;
+        }
+
+        .search-container button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .search-container button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<div class="search-container">
+    <input type="text" id="search-box" placeholder="Tìm kiếm món ăn...">
+    <button onclick="searchFunction()">Tìm kiếm</button>
+</div>
+
+<script>
+    function searchFunction() {
+        var query = document.getElementById("search-box").value;
+        if(query) {
+            alert("Tìm kiếm: " + query);
+        } else {
+            alert("Vui lòng nhập từ khóa tìm kiếm!");
+        }
+    }
+</script>
+
+</head>
+<body>
+
+
+
+
+<header>
+    <h1>Khám Phá Ẩm Thực Miền Tây Nam Bộ</h1>
+    <p>Những nét đặc sắc của ẩm thực miền Tây Nam Bộ</p>
+</header>
+
+<nav>
+    <a href="#gioi-thieu">Giới Thiệu</a>
+    <a href="#mon-an">Món Ăn</a>
+    <a href="#lien-he">Liên Hệ</a>
+</nav>
+
+<section id="gioi-thieu">
+    <h2>Giới Thiệu Về Ẩm Thực Miền Tây Nam Bộ</h2>
+    <p>•Khác với vị đậm đà của miền Bắc và vị cay nồng của miền Trung, ẩm thực miền Tây Nam Bộ thiên về vị ngọt thanh người dân sống tại khu vực này rất ưa ngọt nên hầu hết các món ăn tại đây đều có vị ngọt dịu. Các món chè ngon nổi tiếng như: chè bà ba, chè đậu, chè bưởi,… cũng có nguồn gốc từ nơi này.
+•Các món ăn tại đây đều được chế biến từ nguyên liệu thuần tự nhiên và sạch vì miền Tây Nam Bộ có nguồn thủy hải sản phong phú.
+•Khi tới đây vào mùa nước nổi, bạn sẽ được thưởng thức các món ăn như canh chua cá linh, lẩu cá linh bông điên điển, lẩu mắm miền tây,… Còn vào mùa nước cạn, bạn sẽ được thưởng thức món đặc sản được chế biến từ cá lóc, lươn và cá trạch,….</p>
+<audio src="https://youtube.com/watch?v=HI31m9tBd2s&si=_GGE48W42WORPJH5" controls>
+</audio>
+
+<section id="mon-an">
+    <h2>Các Món Ăn Đặc Sắc</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/0TDMnPlxZKg?si=7DF0Dc_q0znE5nWb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <div class="food-item">
+        <img src="https://nld.mediacdn.vn/291774122806476800/2022/11/27/photo-2-1669539299279852245531.png" alt="Bánh Tét Miền Tây">
+        <div class="description">
+            <h3>Bánh Tét Miền Tây</h3>
+            <p>Đứng đầu trong danh sách các món bánh miền Tây nổi tiếng đó là món bánh tét. Đây là món đặc sản Cần Thơ, là một trong các món ăn truyền thống của gia đình Việt Nam trong ngày Tết. Tại miền Tây, bánh Tét không chỉ có nhân mặn mà còn được biến tấu với các loại nhân ngọt như: nhân dừa, nhân đậu, nhân chuối,... để phù hợp với cả người ăn chay và ăn mặn. Bánh Tét miền Tây còn đặc trưng ở màu sắc rất nổi bật chẳng hạn như bánh Tét lá cẩm màu tím hay bánh Tét ngũ sắc. Hương vị bánh Tét miền Tây thơm ngon, khi ăn bạn sẽ cảm nhận được vị ngọt thanh từ chuối, vị bùi bùi từ đậu hay béo ngậy từ trứng muối quyện với nước cốt dừa rất lạ miệng, ăn một miếng là ngất ngây.</p>
+        </div>
+    </div>
+
+    <div class="food-item">
+        <img src="https://cdn.nhathuoclongchau.com.vn/unsafe/800x0/filters:quality(95)/https://cms-prod.s3-sgn09.fptcloud.com/cach_lam_banh_da_lon_ngon_nhu_mua_ngoai_cho_1_122f579912.png" alt="Bánh Da Lợn">
+        <div class="description">
+            <h3>Bánh Da Lợn</h3>
+            <p>Bánh da lợn là một sự kết hợp tinh tế giữa vị bùi của đậu xanh, mùi thơm và màu xanh bắt mắt từ lá dứa. Từng lớp bánh da lợn mềm dai ngọt dịu tạo nên món ăn tuy dân dã nhưng dễ làm đắm say lòng người. Bánh da lợn rất dễ ăn, dù người lớn hay trẻ nhỏ đều hợp để thưởng thức. Đặc biệt, món bánh miền Tây này cũng dễ làm, chỉ cần chuẩn bị một vài nguyên liệu truyền thống dễ tìm như bột năng, đậu xanh, nước cốt dừa, lá dứa,... là bạn có thể trổ tay tự làm ngay tại nhà rồi đấy!</p>
+        </div>
+    </div>
+    <div class="food-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6XUL4-NNIRnMSJfSjcJHH1TNsAIAKct_DIRlJteMqZRyPbYTXx4BQpxQg4FyAVZCySHY&usqp=CAU" alt="Bánh Bò Thốt Nốt">
+        <div class="description">
+            <h3>Bánh Bò Thốt Nốt</h3>
+            <p>Theo những người làm bánh ở Châu Đốc, làm món bánh bò thốt nốt hơi tốn công. Trước tiên, gạo phải là gạo nàng Nhen cũ, xay thành bột. Mài trái thốt nốt già chín, gạn lấy bột, cho đường tán thốt nốt và một ít nước cốt dừa vào thau trộn đều cùng ít nước, ủ kín qua đêm. Sau đó, đổ bột vào khuôn tròn cho vào xửng hấp khoảng 20 phút, rồi lấy bánh ra, rắc một ít dừa nạo lên, lấy lá chuối xiêm gói bánh lại. Vị xốp của bánh, ngọt béo của dừa, hòa cùng vị đặc trưng của đường thốt nốt, không lẫn vào đâu được.</p>
+        </div>
+    </div>
+ <div class="food-item">
+        <img src="https://cdn.tgdd.vn/Files/2019/09/10/1196925/cach-nau-bun-ca-chau-doc-ngon-dung-goc-mien-tay-202205241149038853.jpg" alt="Bún Cá">
+        <div class="description">
+            <h3>Bún Cá</h3>
+            <p>Món ăn đặc sản miền tây này bắt nguồn từ Campuchia và được sự sáng tạo chế biến của người dân nơi đây đã tạo nên một món ăn mang đậm hương vị của miền tây nam bộ. Thành phần chính của bún cá Châu Đốc gồm có cá lóc đồng tươi ngon, bún tươi và nước lèo đậm đà được nấu từ xương cá và gia vị đặc trưng. Để tăng thêm phần hấp dẫn, bún cá Châu Đốc còn được trang trí bằng các loại rau sống tươi xanh như rau muống, giá đỗ, và bông điên điển. Món ăn này còn đi kèm với mắm nêm đậm đà và ớt tươi cay nồng, tạo nên hương vị khó quên. Nếu có dịp ghé thăm An Giang, bạn đừng quên thưởng thức bún cá Châu Đốc để cảm nhận trọn vẹn tinh hoa ẩm thực miền Tây.</p>
+        </div>
+    </div>
+ <div class="food-item">
+        <img src="https://cdn.tgdd.vn/Files/2020/07/01/1266749/cach-nau-bun-nuoc-leo-soc-trang-ngon-dam-da-chuan-vi-an-mot-lan-la-nho-mai-202208301437543598.jpg" alt="Bún Nước Lèo">
+        <div class="description">
+            <h3>Bún Nước Lèo</h3>
+            <p>Du lịch miền tây ghé đến mảnh đất Sóc Trăng, bạn nhất định phải thử qua món bún nước lèo đặc sản. Món ăn này mang đặc trưng hương vị của sự kết hợp tinh tế của các nền tinh hoa ẩm thực của cả 3 dân tộc Việt - Hoa - Khmer sinh sống trên vùng đất này, nó trở thành một món bún đặc sản miền tây không chỉ là của Sóc Trăng. Để tạo nên món ăn đặc trưng này thì phần nước lèo chính là "linh hồn", nước lèo thơm ngon, đậm đà được nấu từ mắm cá linh hoặc mắm bò hóc, hòa quyện cùng vị ngọt của xương heo và tôm khô. Món ăn còn bao gồm bún tươi, cá lóc đồng hấp, và các loại rau sống như rau muống, giá đỗ, và bông súng, tất cả tạo nên sự hài hòa và phong phú về hương vị. Khi thưởng thức, bạn sẽ cảm nhận được vị cay nồng của ớt và chua nhẹ của chanh, làm tăng thêm sự hấp dẫn cho món ăn. Đặc sản miền Tây này chắc chắn sẽ khiến bạn mê mẩn và muốn quay lại thưởng thức thêm nhiều lần.</p>
+        </div>
+    </div>
+<div class="food-item">
+        <img src="https://daubepgiadinh.vn/wp-content/uploads/2018/05/hinh-bun-mam-600x400.jpg" alt="Bún Mắm">
+        <div class="description">
+            <h3>Bún Mắm</h3>
+            <p>Bún mắm đặc trưng bởi nước lèo nấu từ mắm cá linh hoặc mắm cá sặc, kết hợp cùng các loại hải sản tươi sống như tôm, mực, cá và heo quay. Nước lèo của bún mắm có màu nâu sẫm, thơm lừng, quyện hòa cùng các gia vị như sả, ớt, tỏi, tạo nên một hương vị khó quên. Bún mắm thường được ăn kèm với bún tươi, rau sống như bông súng, rau đắng, rau muống và giá đỗ, tất cả tạo nên sự hài hòa về màu sắc và hương vị. Khi thưởng thức, bạn sẽ cảm nhận được sự đậm đà của nước lèo, vị ngọt của hải sản và sự tươi mát của rau sống, làm cho món ăn trở nên vô cùng hấp dẫn. Bún mắm không chỉ là niềm tự hào của người dân miền Tây mà còn là một trải nghiệm ẩm thực mà du khách không thể bỏ qua khi ghé thăm vùng đất này. Đặc sản miền Tây này chắc chắn sẽ để lại ấn tượng sâu sắc trong lòng thực khách.</p>
+        </div>
+    </div>
+<div class="food-item">
+        <img src="https://cdn-i.vtcnews.vn/upload/2024/08/16/naulaucakeongon-12125425.png" alt="Lẩu cá kèo">
+        <div class="description">
+            <h3>Lẩu cá kèo</h3>
+            <p>Lẩu cá kèo là một món ăn đặc sản phổ biến ở miền Tây Nam Bộ, Việt Nam. Món lẩu được chế biến từ cá kèo - một loại cá da trơn sống chủ yếu tại vùng đồng bằng sông Cửu Long. Nước lẩu có vị ngọt nhẹ của nước dừa, chua thanh của lá giang, hơi đăng đắng của ruột và mật cá. Cá kèo được sơ chế khéo nên không hề có mùi tanh. Thịt cá dai chắc và thơm ngọt, kết hợp hoàn hảo cùng vị đắng nhẹ của mật, mang đến một hương vị độc đáo và khó tả. Rau ăn kèm: rau đắng , rau nhút, bông súng, bắp chuối bào, kèo nèo,...</p>
+        </div>
+    </div>
+<div class="food-item">
+        <img src="https://sanchimvamho.vn/wp-content/uploads/2020/06/89222003_572547886667422_6468931719482310656_o.jpg" alt="Lẩu Bần">
+        <div class="description">
+            <h3>Lẩu Bần</h3>
+            <p>Lẩu bần là một món ăn đặc sản của miền Tây sông nước Việt Nam, nổi tiếng nhất là Cần Thơ. Nước lẩu có vị chua thanh được chế biến từ trái bần chín tạo nên sự đặc chưng không thể nhầm lẫn, kết hợp với hương thơm và ngọt thanh của nước dừa tươi, vị ngọt của cá (cá ba sa, cá chẽm,...), tôm, thịt và các loại rau ăn kèm (bông súng, kèo nèo, rau muống, bắp chuối,...). Ăn cùng với bún tươi hoặc cơm trắng.</p>
+        </div>
+    </div>
+<div class="food-item">
+        <img src="https://product.hstatic.net/1000093072/product/lau_mam_u_minh_d4170d1992e845428999cf978ae9efe9_master.jpg" alt="Lẩu mắm ">
+        <div class="description">
+            <h3>Lẩu Mắm</h3>
+            <p>Lẩu mắm là một món ăn đặc sản nổi ttieensg của miền Tây sông nước Việt Nam, được nhiều người yêu thích. Bởi sự đậm đà, mặn mà của nước lẩu được làm từ mắm cá , kết hợp với vị ngọt tự nhiên của cá (cá diêu hồng, cá lóc, cá bông lau,..), tôm, thịt, mực,... Ăn kèm cùng bún tươi, thịt heo quay, cà tím và các loại rau (bông súng, kèo nèo, rau muống, bắp chuối,...).</p>
+        </div>
+    </div>
+<div class="food-item">
+        <img src="https://i.vietgiaitri.com/2021/11/22/goi-xoai-kho-ca-sac-db9-6167950.png" alt="Gỏi xoài khô cá sặc">
+        <div class="description">
+            <h3>Gỏi xoài khô cá sặc</h3>
+            <p>Gỏi xoài khô cá sặc là đặc sản dân dã miền Tây, Việt Nam. Món này có hương vị chua ngọt thanh mát của xoài , vị mặn và sự dai dai của khô cá sặc, vị thơm của rau răm, rau húng, bùi béo của đậu phộng rang và pha thêm với nước gỏi chua ngọt tạo nên sự hài hòa làm xiêu lòng của biết bao nhiêu người. Món được ăn kèm với bánh phồng tôm hoặc bánh tráng mè nướng.</p>
+        </div>
+    </div>
+<div class="food-item">
+        <img src="https://i1-dulich.vnecdn.net/2015/07/21/cuhu-1-5425-1437453664.jpg?w=680&h=0&q=100&dpr=1&fit=crop&s=gSKdwBzl94MUiClzyabFwA" alt="Gỏi củ hủ dừa">
+        <div class="description">
+            <h3>Gỏi củ hủ dừa</h3>
+            <p>Gỏi củ hủ dừa là món ăn đặc trung của miền Tây Nam Bộ Việt Nam, đặc biệt là Bến Tre. Món được chế biến từ phần non của đọt dừa. Món này có hương vị thanh mát, giòn ngon của củ hủ dừa và sự kết hợp chua ngọt của nước trộn gỏi, mùi thơm của rau răm, rau húng, bùi béo của đậu phộng và ngọt của tôm, thịt. Ăn kèm cùng bbnhs phồng tôm hoặc bánh tráng nướng.</p>
+        </div>
+    </div>
+<div class="food-item">
+        <img src="https://tomimarkets.net/wp-content/uploads/2020/09/ba-khi-tron-goi-du-du.jpg" alt="Gỏi ba khía">
+        <div class="description">
+            <h3>Gỏi ba khía</h3>
+            <p>Gỏi ba khía là món ăn đặc sắc của miền Tây Nam Bộ, Việt Nam. Với hương vị mặn mà đặc trưng của những con ba khía ú nụ, vị chua ngọt thanh mát của xoài, vị thơm của rau răm, rau húng và vị bùi của đậu phồng rang. Gỏi ba khía ngon nhất khi ăn kèm với bánh phồng tôm hoặc bánh tráng nướng.</p>
+        </div>
+    </div>
+
+</section>
+
+</body>
+</html>
